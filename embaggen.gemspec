@@ -1,10 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "semver"
 
 Gem::Specification.new do |spec|
   spec.name = "embaggen"
-  spec.version = SemVer.find.format "%M.%m.%p"
+  spec.version = "0.1.0"
   spec.summary = "Embaggen - bag and tag with the BagIt library"
   spec.description = "Bag and tag with the BagIt library" 
   spec.email = "m.slone@gmail.com"
