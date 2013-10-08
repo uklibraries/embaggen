@@ -1,7 +1,7 @@
 require 'find'
 
 module KDL
-  class Embaggen < BagIt::Bag
+  class Embaggen < ::BagIt::Bag
     def add_directory(src_dir)
       Find.find(src_dir) do |src_file|
         if File.file? src_file
