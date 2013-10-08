@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/uklibraries/embaggen.png)](https://travis-ci.org/uklibraries/embaggen)
+
 Embaggen
 ========
 
